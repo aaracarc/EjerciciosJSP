@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    text-align: center;
+}
+
+.contenedor {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.contenedorIngredientes {
+	display: flex;
+	flex-direction: column;
+	margin: 0px 20px 20px 20px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+img {
+	width: 250px;
+	max-width: 100%;
+}
+
+.tarrina {
+	display: flex;
+	flex-direction: column;
+    width: 300px;
+    height: 150px;
+    border: 10px solid #a12e2e;
+    border-top: none;
+}
+
+.sabor {
+    flex-grow: 1;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.chocolate {
+    background-color: #55341c;
+}
+
+.fresa {
+    background-color: #eaacd6;
+}
+
+.vainilla {
+    background-color: #f5d991;
+}
